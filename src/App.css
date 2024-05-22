@@ -7,7 +7,7 @@
 .btn {
   height: 60px;
   width: 60px;
-  font-size: 40px;
+  font-size: 30px;
   border: none;
   background: #185cffc4;
   color: #f0f4fecd;
@@ -22,8 +22,10 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: flex;
   margin-top: -60px;
+}
+.board-row {
+  display: flex;
 }
 .header {
   text-align: center;
@@ -41,6 +43,9 @@ body {
   background: #090ef5;
   border: none;
   border-radius: 20px;
+}
+.btn.highlight {
+  background: green;
 }
 @media (min-width: 800px) {
   .c-btn button {
